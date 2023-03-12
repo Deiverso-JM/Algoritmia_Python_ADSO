@@ -15,7 +15,7 @@ print(V2)
 
     
 for i in range(0,Num):
-    if V2.count(V1[i]) >= 1:
+    if V1[i] in V2:
         print(f"El numero {V1[i]} del primer vector tambien existe en el vector 2")
     else:
         continue

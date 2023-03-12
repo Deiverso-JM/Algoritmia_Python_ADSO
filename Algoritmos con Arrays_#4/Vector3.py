@@ -8,4 +8,5 @@ for i in range(0,Num):
     V1.append(Entrada)
     
 V1.sort()
+print("VECTOR ORGANIZADO DE FORMA ACENDENTE")
 print(V1)

@@ -30,8 +30,6 @@ for i in range(0,Tamañofila):
         n=Matriz[i][l] + Matriz2[i][l]
         Suma[i].append(n)
         
-        print(Suma[i][l], end="")
-    print()
         
 
 

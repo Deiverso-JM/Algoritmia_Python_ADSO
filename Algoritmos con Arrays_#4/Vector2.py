@@ -1,5 +1,5 @@
 V1=[]
-Primos=[]
+
 
 Num=int(input("Digite la cantidad el tamaño del vector: \n"))
 
@@ -22,5 +22,5 @@ for Nume in V1:
             Conta+= 1
                 
     
-print("HOA",Conta)
+print("la candtidad de numeros primos que hay en el arreglo son: ",Conta)
 
