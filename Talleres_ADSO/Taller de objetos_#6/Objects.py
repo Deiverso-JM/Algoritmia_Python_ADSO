@@ -56,12 +56,22 @@ class tor():
     utilidad="Cebolla"
     autor="Anonimos"
     
+    def ultrator(self):
+        print("ULTRA TOR SU METODO")
+        
+    
         
 class hijotor(tor):
     Uso="Sub-terraneoweb"
+    
+    def ultrator(self):
+        print("ESOT ES ESPARTA PERO DELO HIJO TOR")
+
 
 #instancia sin init
 objetos2=hijotor()
+
+objetos2.ultrator()
 
 #Herencia sin init
 print("Utilidad ", objetos2.Nombre, objetos2.Uso,objetos2.utilidad)
